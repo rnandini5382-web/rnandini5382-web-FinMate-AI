@@ -170,58 +170,42 @@ Category	Food & Dining
 Amount	450
 
 
-Example CSV:
-date,merchant,category,amount
-2026-09-01,Swiggy,Food & Dining,450
-2026-09-02,Amazon,Shopping,1299
-2026-09-03,Uber,Transport,280
-2026-09-04,Netflix,Entertainment,649
+## 📄 CSV Format
 
-🔐 Privacy & Data Handling
+FinMate AI works with transaction data containing fields such as:
+
+| Column | Example |
+|---|---|
+| Date | 2026-09-01 |
+| Merchant | Swiggy |
+| Category | Food & Dining |
+| Amount | ₹450 |
+
+### Example Transaction Data
+
+| Date | Merchant | Category | Amount |
+|---|---|---|---:|
+| 2026-09-01 | Swiggy | Food & Dining | ₹450 |
+| 2026-09-02 | Amazon | Shopping | ₹1,299 |
+| 2026-09-03 | Uber | Transport | ₹280 |
+| 2026-09-04 | Netflix | Entertainment | ₹649 |
+
+The uploaded CSV should contain transaction information such as date, merchant, category, and amount.
+
+---
+
+## 🔐 Privacy & Data Handling
+
 FinMate AI is designed around user-provided transaction data.
+
 The application processes the uploaded CSV to generate financial analysis and insights.
+
 Users should avoid uploading sensitive information such as:
+
 - Bank account numbers
 - Card numbers
 - Passwords
 - PINs
 - OTPs
-For production deployment, additional security features such as authentication, encrypted storage, secure APIs, and data deletion controls can be added.
-🌱 Future Enhancements
-Future versions of FinMate AI can include:
-- 🧠 Advanced AI-powered financial recommendations
-- 💬 More natural conversational queries
-- 📈 Spending prediction
-- 🔮 Future expense forecasting
-- 🚨 Improved anomaly detection
-- 🎯 Personalized monthly budgets
-- 📱 Mobile-friendly interface
-- 🔐 User authentication
-- ☁️ Cloud deployment
-- 📊 Advanced financial visualizations
-- 📄 Automatic financial report generation
-💡 Why FinMate AI?
-FinMate AI focuses on turning raw financial data into meaningful information.
-Instead of simply displaying a list of transactions, the platform helps users understand their financial behavior and identify areas that deserve attention.
-The goal is simple:
-Upload your transactions. Understand your spending. Make better financial decisions.
 
-🏆 Hackathon Project
-FinMate AI was developed as an AI-focused personal finance project to explore how data analysis and intelligent interfaces can simplify financial management.
-The project demonstrates how transaction data can be transformed into useful financial insights through an interactive web application.
-👩‍💻 Author
-Rudrashetty Nandini
-Artificial Intelligence & Data Science
-GitHub: @rnandini5382-web
-⭐ Project Highlights
-- 📊 Dynamic transaction analysis
-- 📁 CSV-based data upload
-- 💰 Spending categorization
-- 🔍 Unusual transaction detection
-- 🔄 Subscription detection
-- 📈 Monthly spending analysis
-- 💡 Personalized financial insights
-- 🤖 Ask FinMate interaction
-- ⚡ React + FastAPI architecture
-- 🧠 Machine learning-based anomaly detection
-- 🔐 Privacy-conscious design
+For production deployment, additional security features such as authentication, encrypted storage, secure APIs, and data deletion controls can be added.
